@@ -1,0 +1,39 @@
+{
+	"inputs": {
+		"LazySearchInput": {
+			"placeholder": "e.g. test",
+			"search": "Search",
+			"label": "{modelName, plural, =0 {Search} other {Search for {modelName}}}",
+			"tooltip": "Search for {modelName} by clicking on the search icon or pressing Enter",
+			"clear": "Clear search"
+		},
+		"ColorSchemaToggle": {
+			"schema": "{schema, select, light {light} dark {dark} auto {system} other {}}",
+			"light": "light",
+			"dark": "dark",
+			"auto": "system",
+			"toggle-color-scheme": "Toggle to {schema} theme"
+		},
+		"LanguageSelect": {
+			"en": "English/English",
+			"hu": "Hungarian/Magyar",
+			"select-language": "Select language"
+		},
+		"LimitSlider": {
+			"sliderLabel": "Max number of results"
+		}
+	},
+	"models": {
+		"SnomedConcept": {
+			"shortName": "Concept",
+			"longName": "SNOMED CT Concept"
+		}
+	},
+	"ResultDropdown": {
+		"noResults": "No results",
+		"Results": "Results"
+	},
+	"SelectedRender": {
+		"selectMatchingTerm": "Select a matching term.."
+	}
+}

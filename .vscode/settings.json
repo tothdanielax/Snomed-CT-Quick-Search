@@ -1,0 +1,28 @@
+{
+	"i18n-ally.localesPaths": ["messages"],
+	"i18n-ally.keystyle": "nested",
+	"cssVariables.lookupFiles": [
+		"**/*.css",
+		"**/*.scss",
+		"**/*.sass",
+		"**/*.less",
+		"node_modules/@mantine/core/styles.css"
+	],
+	"cSpell.ignoreRegExpList": ["/from\\s+(['\"]).*\\1/"],
+	"cSpell.diagnosticLevel": "Hint",
+	"workbench.colorCustomizations": {
+		// will change the color of three dots to red
+		"editorHint.foreground": "#ff0000",
+
+		// will underline the entire word with dots in your chosen color
+		"editorHint.border": "#00ff66"
+	},
+	"editorHint.foreground": "#f000",
+	"cSpell.words": ["SNOMED"],
+	"codeQL.githubDatabase.download": "never",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"vitest.disableWorkspaceWarning": true
+}

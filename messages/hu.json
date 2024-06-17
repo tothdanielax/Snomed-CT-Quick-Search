@@ -1,0 +1,39 @@
+{
+	"inputs": {
+		"LazySearchInput": {
+			"placeholder": "pl. test",
+			"search": "Keresés",
+			"label": "{modelName, plural, =0 {Keresés} other {Keresés {modelName}-re}}",
+			"tooltip": "{modelName} keresése a keresés ikonra kattintva vagy az Enter megnyomásával",
+			"clear": "Keresés törlése"
+		},
+		"ColorSchemaToggle": {
+			"schema": "{schema, select, light {világos} dark {sötét} auto {rendszer} other {}}",
+			"light": "világos",
+			"dark": "sötét",
+			"auto": "rendszer",
+			"toggle-color-scheme": "Váltás a {schema} témára"
+		},
+		"LanguageSelect": {
+			"en": "Angol/English",
+			"hu": "Magyar/Hungarian",
+			"select-language": "Nyelv kiválasztása"
+		},
+		"LimitSlider": {
+			"sliderLabel": "Maximális találatok száma"
+		}
+	},
+	"models": {
+		"SnomedConcept": {
+			"shortName": "Concept",
+			"longName": "SNOMED CT Concept"
+		}
+	},
+	"ResultDropdown": {
+		"noResults": "Nincs találat",
+		"Results": "Találatok"
+	},
+	"SelectedRender": {
+		"selectMatchingTerm": "Válasszon ki egy Snomed CT Concept-et..."
+	}
+}
