@@ -78,6 +78,7 @@ export const useConceptStore = create<ConceptStore>()(
 		}),
 		{
 			name: SELECTED_CONCEPT_LOCAL_STORAGE_KEY,
+			skipHydration: true,
 		},
 	),
 );
