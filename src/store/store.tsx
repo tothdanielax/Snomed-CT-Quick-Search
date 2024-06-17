@@ -1,5 +1,5 @@
-import {type ConceptStore} from '@/store/slices/conceptStore';
-import {useEffect, useState} from 'react';
+import { type ConceptStore } from '@/store/slices/conceptStore';
+import { useEffect, useState } from 'react';
 
 /**
  * Type for the central store of the application ({@link useStore}).

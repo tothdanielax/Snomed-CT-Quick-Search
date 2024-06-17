@@ -6,15 +6,14 @@
 
 - [Description](#description)
 - [Setup](#setup)
-    - [Development setup](#development-setup)
-    - [Testing setup](#testing-setup)
+  - [Development setup](#development-setup)
+  - [Testing setup](#testing-setup)
 
 ---
 
 # Description
 
-Snomed CT Component Quick Search MVP with Next.js, Mantine, TypeScript, Storybook and more.
----
+## Snomed CT Component Quick Search MVP with Next.js, Mantine, TypeScript, Storybook and more.
 
 # Setup
 
@@ -54,4 +53,3 @@ pnpm test:e2e
 ```
 
 ---
-

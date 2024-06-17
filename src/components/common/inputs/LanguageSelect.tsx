@@ -1,9 +1,9 @@
-import {Select, type SelectProps, Tooltip} from '@mantine/core';
-import {useTranslations} from 'next-intl';
-import React, {useCallback, useTransition} from 'react';
-import {locales, usePathname, useRouter} from '@/navigation';
-import {useParams} from 'next/navigation';
-import {useQuery} from '@/hooks/useQuery';
+import { Select, type SelectProps, Tooltip } from '@mantine/core';
+import { useTranslations } from 'next-intl';
+import React, { useCallback, useTransition } from 'react';
+import { locales, usePathname, useRouter } from '@/navigation';
+import { useParams } from 'next/navigation';
+import { useQuery } from '@/hooks/useQuery';
 
 /**
  * A select input that allows the user to select a language.

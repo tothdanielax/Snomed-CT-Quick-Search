@@ -1,7 +1,7 @@
-import {Box} from '@mantine/core';
-import {useTranslations} from 'next-intl';
-import type {ModelTranslations} from 'global';
-import type {ReactNode} from 'react';
+import { Box } from '@mantine/core';
+import { useTranslations } from 'next-intl';
+import type { ModelTranslations } from 'global';
+import type { ReactNode } from 'react';
 
 /**
  * Props for {@link SelectedRender}.

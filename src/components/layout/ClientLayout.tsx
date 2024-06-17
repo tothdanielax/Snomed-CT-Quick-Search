@@ -1,15 +1,15 @@
 'use client';
 
-import React, {type ReactNode} from 'react';
-import {AppShell, Flex, MantineProvider, Text} from '@mantine/core';
-import {AnimatePresence} from 'framer-motion';
-import {LanguageSelect} from '@/components/common/inputs/LanguageSelect';
-import {ColorSchemeToggle} from '@/components/common/inputs/ColorSchemeToggle';
-import {SelectedRender} from '@/components/common/SelectedRender';
-import {useStore} from '@/store/store';
-import {theme} from '@/theme';
-import {useTranslations} from 'next-intl';
-import {useConceptStore} from '@/store/slices/conceptStore';
+import React, { type ReactNode } from 'react';
+import { AppShell, Flex, MantineProvider, Text } from '@mantine/core';
+import { AnimatePresence } from 'framer-motion';
+import { LanguageSelect } from '@/components/common/inputs/LanguageSelect';
+import { ColorSchemeToggle } from '@/components/common/inputs/ColorSchemeToggle';
+import { SelectedRender } from '@/components/common/SelectedRender';
+import { useStore } from '@/store/store';
+import { theme } from '@/theme';
+import { useTranslations } from 'next-intl';
+import { useConceptStore } from '@/store/slices/conceptStore';
 
 /**
  * Props for {@link ClientLayout}
