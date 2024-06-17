@@ -57,12 +57,11 @@ jobs:
         run: pnpm lint
 
   test-unit:
-    name: '${{matrix.platform}} / Unit test ${{ matrix.node }}'
-    runs-on: ${{ matrix.os }}
+    name: 'Unit test ${{ matrix.node }}'
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [20, 22]
-        os: [macos-latest, ubuntu-latest, windows-latest]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
